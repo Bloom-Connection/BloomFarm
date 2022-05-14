@@ -1,0 +1,27 @@
+{
+  "name": "bloomfarm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MS-AgroTech/BloomFarm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MS-AgroTech/BloomFarm/issues"
+  },
+  "homepage": "https://github.com/MS-AgroTech/BloomFarm#readme",
+  "devDependencies": {
+    "parcel": "^2.2.1",
+    "prettier": "^2.5.1"
+  }
+}
