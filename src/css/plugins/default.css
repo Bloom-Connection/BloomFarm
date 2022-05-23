@@ -43,7 +43,10 @@ body, html { -moz-osx-font-smoothing: grayscale; }
 a, a:active, a:focus { color: #575a7b; text-decoration: none; transition-timing-function: ease-in-out; -ms-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -webkit-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-duration: .2s; -ms-transition-duration: .2s; -moz-transition-duration: .2s; -webkit-transition-duration: .2s; -o-transition-duration: .2s;  }
 a:hover, a:active{color: #1f194c; text-decoration: none;}
 a:focus, a:active, button:focus, button:active,.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {outline: none;}
-img {max-width:100%; height:auto; vertical-align: top; }
+img {max-width:100%; 
+    height:auto; 
+    vertical-align: top;
+ }
 .form-control { height: 50px; border-radius: 3px; font-size: 15px; }
 .form-control:focus { box-shadow: 0 0 10px rgba(55,125,255,.1); border-color: #292dc2; }
 .form-control::-webkit-input-placeholder { color: #bdbfd2; opacity: 1; }
@@ -143,24 +146,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {  font-weight: 600; font-f
     Background color
 ====================================== */
 
-.bg-transparent {background-color: transparent;}
-.bg-black {background-color:#000;}
-.bg-extra-dark-gray {background-color:#1c1c1c;}
-.bg-dark-gray {background-color:#757575;}
-.bg-extra-medium-gray {background-color:#939393;}
-.bg-medium-gray {background-color:#dbdbdb;}
-.bg-extra-light-gray {background-color:#e0e0e0;}
-.bg-medium-light-gray {background-color:#ededed;}
 .bg-light-gray {background-color:#f1f7ff;}
 .bg-very-light-gray {background-color:#fafafa;}
 .bg-grey {background-color:#f1f7ff;}
-.bg-red {background-color:#ed1b24;}
-.bg-dark-theme { background: #1f194c; }
-.bg-transparent-white { background-color: rgba(255,255,255,0.3); background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(37%, rgba(255,255,255,0)), color-stop(96%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1))); background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 37%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 ); }
-.bg-transparent-black { background-color: rgba(0,0,0,0); background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0)), color-stop(37%, rgba(0,0,0,0)), color-stop(96%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1))); background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -o-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 37%, rgba(0,0,0,1) 96%, rgba(0,0,0,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 ); }
-.bg-white-opacity { background-color: rgba(255, 255, 255, 0.85); }
-.bg-black-opacity { background-color: rgba(0, 0, 0, 0.85); }
-.bg-black-opacity-light { background-color: rgba(0, 0, 0, 0.5); }
 
 /* ===================================
     Custom
