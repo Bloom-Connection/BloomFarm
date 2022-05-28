@@ -2992,70 +2992,7 @@ a.butn.white:hover, a.butn.white:active, a.butn.white:focus {
   .section-clients .owl-carousel .owl-item img {
     max-width: 75%;
     display: inline-block; } }
-/*==============================
- *    Counter box
- *    ================================ */
-/* counter-box01 */
-.counter-box01 h3, .counter-box01 h4 {
-  display: inline-block;
-  font-weight: 600; }
 
-.social-icons a:hover {
-  opacity: 1; }
-
-.counter-box01 {
-  position: relative;
-  text-align: center; }
-  .counter-box01 h3:after {
-    content: '+'; }
-  .counter-box01 h4 {
-    font-size: 28px;
-    line-height: normal;
-    margin: 0; }
-    .counter-box01 h4:after {
-      content: '+'; }
-  .counter-box01 h3 {
-    font-size: 45px; }
-
-@media screen and (max-width: 767px) {
-  .counter-box01 p:before {
-    margin: 0;
-    position: absolute;
-    top: 45px; }
-  .counter-box01 p:after {
-    margin: 0;
-    left: 14px;
-    right: 0;
-    top: 45px; }
-  .counter-box01.black p:after {
-    margin: 0;
-    left: 14px;
-    right: 0;
-    top: 45px; }
-  .counter-box01 h4 {
-    font-size: 22px; } }
-/* counter-box02 */
-.counter-box02 {
-  position: relative; }
-  .counter-box02 .right-shape {
-    position: absolute;
-    right: 0;
-    bottom: -7px;
-    width: 300px; }
-  .counter-box02 .left-shape {
-    position: absolute;
-    background: url(../img/bg/bg-03.png) no-repeat center top;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background-size: cover;
-    opacity: 0.1; }
-
-@media screen and (max-width: 1399px) {
-  .counter-box02 .right-shape {
-    right: -100px;
-    bottom: -34px; } }
 /*==============================
  *    Testmonials
  *    ================================ */
