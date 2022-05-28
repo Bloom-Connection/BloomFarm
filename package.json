@@ -2,7 +2,6 @@
   "name": "bloomfarm",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
@@ -22,7 +21,14 @@
   },
   "homepage": "https://github.com/MS-AgroTech/BloomFarm#readme",
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.5.0",
+    "@parcel/transformer-webmanifest": "^2.5.0",
     "parcel": "^2.2.1",
     "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
   }
 }
