@@ -5371,8 +5371,8 @@ ul.countdown li {
   margin: 0; }
   .pagination ul {
     display: inline-block;
-    *display: inline;
-    *zoom: 1;
+    display: inline;
+    zoom: 1;
     margin: 0 auto;
     padding: 0; }
   .pagination li {
