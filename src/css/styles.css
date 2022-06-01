@@ -1657,11 +1657,10 @@ a.butn.white:hover, a.butn.white:active, a.butn.white:focus {
 /*==============================
  *    Main banner styles
  *    ================================ */
-/* main banner style01*/
 /* main banner style5 */
 .main-banner-style05 {
   width: 100%;
-  padding: 5% 0 21% 0; 
+  padding: 5% 0 5% 0; 
 }
 
 .marketplace {
@@ -1669,6 +1668,7 @@ a.butn.white:hover, a.butn.white:active, a.butn.white:focus {
 }
   .main-banner-style05 .container {
     margin-bottom: 50px;
+    margin-top: 0;
    }
   .main-banner-style05 .header-text h1 {
     font-size: 58px;
@@ -1679,7 +1679,7 @@ a.butn.white:hover, a.butn.white:active, a.butn.white:focus {
     width: 55%;
     height: auto;
     text-align: center;
-    position: absolute;
+    /* position: absolute; */
     bottom: -350px;
     right: 0;
     z-index: 9;
@@ -1711,7 +1711,7 @@ a.butn.white:hover, a.butn.white:active, a.butn.white:focus {
     margin-bottom: 15px; } }
 @media screen and (max-width: 575px) {
   .main-banner-style05 {
-    padding: 10% 0 25% 0; }
+    padding: 10% 0 5% 0; }
     .main-banner-style05 .header-text h1 {
       line-height: 36px;
       font-size: 24px;

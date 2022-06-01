@@ -12,30 +12,6 @@ self.addEventListener("install", event => { //we listen for the install event
 
     }); 
 
-    // To serve the files we listen to the fetch event
-    
-    // self.addEventListener("fetch", event => {
-    //     if (event.request.url == "https://localhost:3000/fake") {
-    //         const response = new Response(`Hello, I'm a response on URL ${event.request.url}`);
-    //         event.respondWith(response);
-    //     } else {
-            // we want to try and see if the request is cached, and we do this by calling the API manually
-            // event.respondWith(
-            //     caches.open("assets").then( cache => {
-            //         cache.match(event.request).then( cachedResponse => { // match is the search function
-            //            if (cachedResponse) {
-                        //    It's a cache HIT
-                    //        return cachedResponse;
-                    //    } else {
-                        //    It's a cache MISS 
-                        //    return fetch(event.request);
-    //                    }  // This is a cache first pattern
-    //                 }) 
-    //             })
-    //             )
-    //         }
-    //   });
-
 // Cache first strategy
 self.addEventListener("fetch", event => {
     event.respondWith(
