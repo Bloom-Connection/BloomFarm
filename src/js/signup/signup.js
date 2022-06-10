@@ -70,3 +70,13 @@ function fixStepIndicator(n) {
   //... and adds the "active" class on the current step:
   x[n].className += " active";
 }
+
+const role = document.getElementById("role");
+role.addEventListener("change", function() {
+  if (role.value == "Farmer") {
+    window.location.href = "farmer-dashboard.html" // if the user is a farmer, we redirect them to the farmer dashboard
+  } else if (role.value == "buyer") {
+    window.location.href = "consumer-dashboard.html";  // this is the link to the dashboard
+  }
+}
+);

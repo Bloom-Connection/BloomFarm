@@ -25,10 +25,10 @@
     </div>
   </section>
   <section>
-    <form id="regForm">
+    <form id="regForm" method="post">
         <!-- One "tab" for each step in the form: -->
       <section class="tab">
-        <h3>Sign Up 1/2</h3>
+        <h3>Sign Up</h3>
         <div class="first">
           <label for="firstname">
             <input type="text" oninput="this.className = ''" id="firstname" placeholder="Firstname" autofocus required>
@@ -66,57 +66,25 @@
             </select>
           </datalist>
         </div>  
+        <div class="">  
+          <input name="country" list="country" oninput="this.className = ''" placeholder="Country" required>
+          <datalist id="country">
+            <select name="country">
+              <!-- <option value="Kenya">Kenya</option> -->
+              <option value="Nigeria">Nigeria</option>
+            </select>
+          </datalist>
+        </div>
+        <div class="">
+          <input type="text" oninput="this.className = ''" placeholder="State" required>
+        </div>
+        <!-- <p>By signing up you accept our <a href="#">terms and conditions</a></p> -->
         <p class="">Already have an account? <span><a href="signin.html">Login here</a></span></p>
       </section>
 
-      <section class="tab">
-          <h3>Sign Up 2/2</h3>
-          <div class="">  
-            <input name="country" list="country" oninput="this.className = ''" placeholder="Country" required>
-            <datalist id="country">
-              <select name="country">
-                <option value="Kenya">Kenya</option>
-                <option value="Nigeria">Nigeria</option>
-              </select>
-            </datalist>
+          <div>
+            <button class="butn" type="submit" >Sign up </button>
           </div>
-          <div class="">
-            <input type="text" oninput="this.className = ''" placeholder="County or State" required>
-          </div>
-          <div class="">
-            <input name="Grade or Level" list="Grade or Level" oninput="this.className = ''" placeholder="Grade or Level" required>
-            <datalist id="Grade or Level">
-              <select name="Grade or Level">
-                <option value="Grade 1">Grade 1</option>
-                <option value="Grade 2">Grade 2</option>
-                <option value="Grade 3">Grade 3</option>
-                <option value="Grade 4">Grade 4</option>
-                <option value="Grade 5">Grade 5</option>
-              </select>
-            </datalist>
-          </div>
-          <div class=""> 
-            <input type="text" oninput="this.className = ''" placeholder="Parent/Guardian Full name" required>
-          </div>
-          <div class="email">
-            <input type="email" oninput="this.className = ''" id="email" placeholder="Parent/Guardian Email Address" required>
-          </div>
-          <p>By signing up you accept our <a href="#">terms and conditions</a></p>
-        </section>
-        
-      <div style="overflow:auto;">
-        <div style="float:right;">
-          <button class="butn" type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
-          <button class="butn" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
-        </div>
-      </div>
-
-      <!-- Circles which indicates the steps of the form: -->
-      <div style="text-align:center; margin-top:40px;">
-        <span class="step"></span>
-        <span class="step"></span>
-        <span class="step"></span>
-
       </div>
     </form>  
   </section>
