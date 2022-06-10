@@ -1,6 +1,6 @@
 const assets = [
     "/", "/css", "index.html", "marketplace.html", "signin.html", "signup.html", "reset-password.html", "forgot-password.html", "consumer-dashboard.html", "farmer-dashboard.html", "add-produce.html", "sw-register.js", 
-    "https://fonts.gstatic.com/s/materialicons/v67/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2"] ;
+    "https://fonts.gstatic.com/s/materialicons/v67/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2",] ;
 
 self.addEventListener("install", event => { //we listen for the install event
     event.waitUntil( // in case where our cache is downloading large resources, the browser should wait until completion before the SW goes down

@@ -1,12 +1,12 @@
 {
-    "name": "BloomFarm, The Digital Marketplace for Farm Produce",
+    "name": "BloomFarm: The Digital Marketplace for Farm Produce",
     "short_name": "BloomFarm",
     "start_url": "./?uym_source=pwa",
     "orientation": "portrait",
-   "theme_color": "#f1f7ff",
-   "scope": "./",
-   "display": "standalone",
-   "icons": [
+    "theme_color": "#f1f7ff",
+    "scope": "./",
+    "display": "standalone",
+    "icons": [
        {
            "src": "icons/icon-512.jpg",
            "sizes": "512x512",
