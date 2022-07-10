@@ -2,6 +2,8 @@ const express = require('express');
 const morgan = require('morgan');
 const farmRouter = require('./routes/farmRoutes');
 const userRouter = require('./routes/userRoutes');
+const productRouter = require('./routes/productRoutes');
+
 const app = express();
 
 // 1) MIDDLEWARES
@@ -18,5 +20,6 @@ app.get('/', (req, res) => {
 // 3) ROUTES REGISTRATION
 app.use('/api/v1/farms', farmRouter);
 app.use('/api/v1/users', userRouter);
+app.use('/api/v1/products', productRouter);
 
 module.exports = app;
