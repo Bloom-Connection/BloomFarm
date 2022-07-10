@@ -3,6 +3,11 @@ const farmController = require('./../controllers/farmController');
 const router = express.Router();
 
 // router.param('id', farmController.checkID);
+router
+  .route('/top-5-farms')
+  .get(farmController.aliasTopFarms, farmController.getAllFarms);
+
+router.route('/farm-stats').get(farmController.getFarmStats);
 
 router
   .route('/')
