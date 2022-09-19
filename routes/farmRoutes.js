@@ -8,6 +8,7 @@ router
   .get(farmController.aliasTopFarms, farmController.getAllFarms);
 
 router.route('/farm-stats').get(farmController.getFarmStats);
+router.route('/monthly-plan/:year').get(farmController.getMonthlyPlan);
 
 router
   .route('/')
