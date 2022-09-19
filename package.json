@@ -50,6 +50,7 @@
     "mongoose": "^6.3.6",
     "morgan": "^1.10.0",
     "popper.js": "^1.16.1",
+    "slugify": "^1.6.5",
     "validator": "^13.7.0"
   }
 }
